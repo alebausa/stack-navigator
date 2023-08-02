@@ -19,5 +19,24 @@ export const styles = StyleSheet.create({
   },
   btnText: {
     color: 'white'
+  },
+  avatar: {
+    width: 100,
+    height: 100,
+    borderRadius: 100
+  },
+  avatarContainer: {
+    marginTop: 20,
+    alignItems: 'center'
+  },
+  menuContainer: {
+    marginVertical: 20,
+    marginHorizontal: 30
+  },
+  menuBtn: {
+    marginVertical: 20
+  },
+  menuText: {
+    fontSize: 20
   }
 })
