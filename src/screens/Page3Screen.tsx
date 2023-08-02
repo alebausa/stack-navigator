@@ -8,7 +8,7 @@ interface Props extends StackScreenProps<any, any> { };
 export default function Page3Screen({ navigation }: Props) {
   return (
     <View style={styles.globalMargin}>
-      <Text>Page3Screen</Text>
+      <Text style={styles.title}>More useful information</Text>
       <Button
         title="Go back"
         // Va a la anterior
